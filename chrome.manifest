@@ -1,0 +1,6 @@
+overlay	chrome://messenger/content/messenger.xul	chrome://undelete/content/undelete.xul
+content	undelete	jar:chrome/undelete.jar!/content/undelete/
+locale	undelete	en-US	jar:chrome/undelete.jar!/locale/en-US/undelete/
+locale	undelete	it-IT	jar:chrome/undelete.jar!/locale/it-IT/undelete/
+
+

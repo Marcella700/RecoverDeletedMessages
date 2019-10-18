@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+
+	<Description about="urn:mozilla:install-manifest">
+	
+		<em:id>{8380f54c-9b7a-4107-b703-9b938e30fb54}</em:id>
+		<em:name>Recover deleted messages</em:name>
+		<em:version>0.4</em:version>
+		<em:description>Recover deleted messages in not-compacted folders</em:description>
+		<em:creator>Paolo Kaosmos</em:creator>
+		<em:homepageURL>https://nic-nac-project.org/~kaosmos/index-en.html</em:homepageURL>
+		<em:updateURL>https://nic-nac-project.org/~kaosmos/update.rdf</em:updateURL>
+		<em:file>
+			<Description about="urn:mozilla:extension:file:mboximport.jar">
+				<em:package>content/undelete/</em:package>
+			</Description>
+		</em:file>
+
+		<em:targetApplication>
+			<Description>
+				 <em:id>{3550f703-e582-4d05-9a08-453d09bdfdc6}</em:id>
+        				<em:minVersion>2.0</em:minVersion>
+        				<em:maxVersion>12.*</em:maxVersion>
+			</Description>
+		</em:targetApplication>
+
+	</Description>
+
+</RDF>
